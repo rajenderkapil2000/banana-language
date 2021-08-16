@@ -1,38 +1,42 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-:root{
-    --primary-color:yellow;
-    --seconday-color:blue;
-} 
-h1{
+
+:root {
+    --primary-color: yellow;
+    --seconday-color: blue;
+}
+
+h1 {
     text-align: center;
     background-color: var(--primary-color);
-    padding:1rem;
+    padding: 1rem;
     margin-bottom: 3rem;
-} 
-
-#section textarea{
-    width:70%;
-    display: block;
-    height:20vh;
-    padding:1rem;
-    margin:1rem;
 }
-#section #btn-translate{
-    padding:1rem 1.5rem;
-    border:1px solid var(--seconday-color);
+
+#section textarea {
+    width: 70%;
+    display: block;
+    height: 20vh;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#section #btn-translate {
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--seconday-color);
     border-radius: 0.2rem;
     font-weight: bold;
     font-style: italic;
     background-color: var(--primary-color);
 }
-#output{
+
+#output {
     border: 1px solid black;
-    width:70%;
-    height:20vh;
-    padding:1rem;
-    margin:1rem;
+    width: 70%;
+    height: 20vh;
+    padding: 1rem;
+    margin: 1rem;
 }
