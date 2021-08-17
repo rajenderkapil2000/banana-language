@@ -4,12 +4,12 @@ var outputDiv = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/yoda.json"
 
-function getTranslationURL(text) {
-  return serverURL + "?" + "text" + text
+function getTranslationURL(input) {
+  return serverURL + "?" + "text" + input
 }
 
 function errorHandler(error) {
-  console.log("error occured", error);
+  console.log("error occured ", error)
 }
 
 function clickHandler() {
